@@ -16,5 +16,5 @@ Type 4: User Collaborative Recommender System(Ratings) : this system focuses on 
 
 Type 5: User Collaborative Recommender System(Ratings) : This system is almost the same as the previous system, just we take sentiment of users per movie into consideration.
 
-
+The data used here is extracted by web scrappings using beautiful soup.
 
