@@ -92,7 +92,7 @@ def calculate_pearson_correlationRatings(dfset1,dfset2):
 
 
 #loading the pkl files
-movie_list_propertyBased = pickle.load(open('movies.pkl','rb'))
+movie_list_propertyBased = pickle.load(open('Movies.pkl','rb'))
 movie_list_propertyBased = pd.DataFrame(movie_list_propertyBased)
 similarity = pickle.load(open('similarity.pkl','rb'))
 popularityRating = pickle.load(open('PopularityRatings.pkl','rb'))
