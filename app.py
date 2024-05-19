@@ -116,7 +116,7 @@ background: rgba(0,0,0,0);
 </style>
 """
 st.markdown(page_bg_img, unsafe_allow_html=True)
-
+st.text("bg-image credits:upsplash")
 #changing the title color
 title_color = """
 <style>
