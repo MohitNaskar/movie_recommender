@@ -18,3 +18,4 @@ Type 5: User Collaborative Recommender System(Ratings) : This system is almost t
 
 The data used here is extracted by web scrappings using beautiful soup.
 
+The application part and the deployement is done using Streamlit.
