@@ -1,5 +1,6 @@
 # Movie Recommendation Sytem
 This is a movie recommendation system based on Machine Learning, Deep learning and Natural Language Processing.
+
 At first we do the sentiment analysis of the users to extract the sentiment of the users per movie using NLP(natural language processing) and we check the accuracy of the sentiment analysis using Logistic Regression, Random Forest Classifier and Decision Tree. Then we preceed to develop the recommender system.
 There are 5 different types of Recommendation Systems each having different roles.
 Type 1: Property Based Recommendation System - which focuses on recommending movies based on the overview and genre of the movie. The genre and overview are vectorized and merged to apply the cosine_similarity algorithm to determine how similar the vectors are for the different movies. Then based on the similarity score we recommend the movies to the users.
