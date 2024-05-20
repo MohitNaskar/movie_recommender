@@ -6,7 +6,7 @@ import pandas as pd
 def recommend_property(movie):
     movie_index = movie_list_propertyBased[movie_list_propertyBased['MovieName'] == movie].index[0]
     distances = similarity[movie_index]
-    movies_list = sorted(list(enumerate(distances)),reverse = True,key = lambda x:x[1])[1:6]
+    movies_list = sorted(list(enumerate(distances)),reverse = True,key = lambda x:x[1])[1:9]
 
     recommend_movies = []
     for i in movies_list:
