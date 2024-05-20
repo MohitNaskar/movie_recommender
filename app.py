@@ -120,8 +120,9 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 title_color = """
 <style>
 [data-testid="stText"] {
-    font-size: 18px; /* Change the size as needed */
-    font-weight: 550; /* Options: normal, bold, bolder, lighter, or numerical value (100-900) */
+    font-size: 20px; /* Change the size as needed */
+    font-family: 'Arial', sans-serif;
+    font-weight: bold; /* Options: normal, bold, bolder, lighter, or numerical value (100-900) */
     color: black;
 }
 
