@@ -157,7 +157,7 @@ select_recommendation_type = st.selectbox(
     ('Property Based','Popularity Based','User Based Collaborative'),
 )
 if (select_recommendation_type == 'Property Based'): 
-    st.header("1. Property Based Recommendation",divider= 'rainbow')
+    st.header("1. :grey-background[Property Based Recommendation]",divider= 'rainbow')
     # Add a selectbox to the sidebar:
     select_movieName = st.selectbox(
         'Select Movie Name',
@@ -174,7 +174,7 @@ if (select_recommendation_type == 'Property Based'):
 
 #for popularity based filering
 if(select_recommendation_type == 'Popularity Based'):
-    st.header("2. Popularity Based Recommendation",divider= 'rainbow')
+    st.header("2. :grey-background[Popularity Based Recommendation]",divider= 'rainbow')
     select_Popularity_Recommendation_Type= st.selectbox(
         'Select The type of Filtering',
         ('Popularity based Filtering (Rating)','Popularity based Filtering (Sentiment)')
@@ -230,7 +230,7 @@ userlist = pickle.load(open('UserList.pkl','rb'))
 userlist = userlist.sort_values(ascending = True)
 #for user based collaborative filtering
 if(select_recommendation_type == 'User Based Collaborative'):
-    st.header("3. User Based Collaborative Recommendation",divider= 'rainbow')
+    st.header("3. :grey-background[User Based Collaborative Recommendation]",divider= 'rainbow')
     select_Collab_Recommendation_Type= st.selectbox(
         'Select The type of User Based Collaborative Filtering',
         ('Collaborative Filtering based on User Rating','Collaborative Filtering based on User Sentiment')
