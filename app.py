@@ -149,7 +149,7 @@ select_recommendation_type = st.selectbox(
     ('Property Based','Popularity Based','User Based Collaborative'),
 )
 if (select_recommendation_type == 'Property Based'): 
-    st.header("1. Content Based Recommendation",divider= 'rainbow')
+    st.header("1. Property Based Recommendation",divider= 'rainbow')
     # Add a selectbox to the sidebar:
     select_movieName = st.selectbox(
         'Select Movie Name',
