@@ -133,8 +133,8 @@ subheading_color= """
 [data-testid="stWidgetLabel"]{
     font-size: 18px; /* Change the size as needed */
     font-family: 'Arial', sans-serif;
-    #font-weight: bold; /* Options: normal, bold, bolder, lighter, or numerical value (100-900) */
-    color: black;
+    font-weight: bold; /* Options: normal, bold, bolder, lighter, or numerical value (100-900) */
+    #color: black;
 }
 </style>
 """
