@@ -128,7 +128,16 @@ title_color = """
 
 </style>"""
 st.markdown(title_color,unsafe_allow_html=True)
-
+subheading_color """
+<style>
+[data-testid="stWidgetLabel"]{
+    font-size: 15px; /* Change the size as needed */
+    font-family: 'Arial', sans-serif;
+    #font-weight: bold; /* Options: normal, bold, bolder, lighter, or numerical value (100-900) */
+    color: black;
+}
+</style>
+"""
 #changing the subheading color to black
 # selectboxColor = """
 # <style>
