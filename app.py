@@ -151,7 +151,7 @@ def remove_duplicates(strings):
 
 
 #recommendation drop down menu
-st.title("Movie Recommender System")
+st.title(":grey-background[Movie Recommender System]")
 select_recommendation_type = st.selectbox(
     'Select Recommendation Type',
     ('Property Based','Popularity Based','User Based Collaborative'),
