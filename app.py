@@ -138,6 +138,14 @@ st.markdown(title_color,unsafe_allow_html=True)
 # </style>
 # """
 # st.markdown(selectboxColor,unsafe_allow_html=True)
+def remove_duplicates(strings):
+    seen = set()
+    result = []
+    for string in strings:
+        if string not in seen:
+            seen.add(string)
+            result.append(string)
+    return result
 
 
 
@@ -157,8 +165,10 @@ if (select_recommendation_type == 'Property Based'):
     if st.button('Confirm Selection'):
     
         recommendations = recommend_property(select_movieName)
-        for i in recommendations:
+        unique_strings = remove_duplicates(recommendations)
+        for i in unique_strings:
             st.text(i)
+            
             
 
 #for popularity based filering
