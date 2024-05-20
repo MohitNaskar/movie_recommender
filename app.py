@@ -301,6 +301,8 @@ if(select_recommendation_type == 'User Based Collaborative'):
             names_in_A_not_in_B = names_in_A_not_in_B['MovieName2'].to_list()
             for i in names_in_A_not_in_B:
                  st.text(i)
+
+
 st.text("bg-image credits:upsplash")
 
 
