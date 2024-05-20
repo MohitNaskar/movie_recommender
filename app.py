@@ -303,6 +303,6 @@ if(select_recommendation_type == 'User Based Collaborative'):
                  st.text(i)
 
 
-st.text("bg-image credits:upsplash")
+
 
 
