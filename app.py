@@ -116,7 +116,6 @@ background: rgba(0,0,0,0);
 </style>
 """
 st.markdown(page_bg_img, unsafe_allow_html=True)
-st.text("bg-image credits:upsplash")
 #changing the title color
 title_color = """
 <style>
@@ -302,5 +301,6 @@ if(select_recommendation_type == 'User Based Collaborative'):
             names_in_A_not_in_B = names_in_A_not_in_B['MovieName2'].to_list()
             for i in names_in_A_not_in_B:
                  st.text(i)
+st.text("bg-image credits:upsplash")
 
 
